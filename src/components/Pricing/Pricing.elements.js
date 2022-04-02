@@ -6,7 +6,7 @@ export const PricingSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #4b59f7;
+  background: #D9486E;
 `;
 
 export const PricingWrapper = styled.div`
@@ -77,10 +77,12 @@ export const PricingCardInfo = styled.div`
   padding: 24px;
   align-items: center;
   color: #fff;
+ 
 `;
 
 export const PricingCardIcon = styled.div`
   margin: 24px 0;
+  backgroundImage: "url(../../images/cakeImg.jpg)";
 `;
 
 export const PricingCardPlan = styled.h3`

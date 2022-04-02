@@ -4,13 +4,13 @@ export const homeObjOne = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Marketing Agency',
-  headline: 'Lead Generation Specialist for Online Businesses',
+  topLine: "Brooke's Bakery",
+  headline: 'Celebrate with Cake',
   description:
-    'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
-  buttonLabel: 'Get Started',
+    'Homemade cakes that taste as good as they look, guaranteed.',
+  buttonLabel: 'View Cakes',
   imgStart: '',
-  img: require('../../images/svg-1.svg'),
+  img: require('../../images/rainbowcake.png'),
   alt: 'Credit Card',
   start: ''
 };
@@ -38,12 +38,12 @@ export const homeObjThree = {
   lightTopLine: false,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Sarah Jeni',
+  topLine: "Owner of Brooke's Bakery",
   headline:
-    'Ultra helped me increase my revenue by over 3X in less than 3 months!',
+    'Brooke Miller',
   description:
-    "Their team is wonderful! I can't believe I didn't start working with them earlier.",
-  buttonLabel: 'View Case Study',
+    "Have you ever bought a cake that looked beautiful, but didn't taste so beautiful? We started Brooke's Bakery to make sure you don't have to compromise on taste for beauty.",
+  buttonLabel: 'View Cakes',
   imgStart: 'start',
   img: require('../../images/profile.jpg'),
   alt: 'Vault',

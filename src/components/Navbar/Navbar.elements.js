@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { FaMagento } from 'react-icons/fa';
+import { FaBirthdayCake, FaShoppingCart} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
@@ -33,8 +33,12 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `;
 
-export const NavIcon = styled(FaMagento)`
+export const NavIcon = styled(FaBirthdayCake)`
   margin-right: 0.5rem;
+`;
+export const CartIcon = styled(FaShoppingCart)`
+  margin: 0.5rem;
+  margin-top: 30px;
 `;
 
 export const MobileIcon = styled.div`
@@ -76,7 +80,7 @@ export const NavItem = styled.li`
   border-bottom: 2px solid transparent;
 
   &:hover {
-    border-bottom: 2px solid #4b59f7;
+    border-bottom: 2px solid #D9486E;
   }
 
   @media screen and (max-width: 960px) {
@@ -113,7 +117,7 @@ export const NavLinks = styled(Link)`
     display: table;
 
     &:hover {
-      color: #4b59f7;
+      color: #D9486E;
       transition: all 0.3s ease;
     }
   }
