@@ -9,7 +9,7 @@ export const homeObjOne = {
     'Get access to our exclusive diamond king package. Limited quantity available.',
   buttonLabel: 'Sign Up',
   imgStart: '',
-  img: require('../../images/svg-2.svg'),
+  img: require('../../images/colorCake.png'),
   alt: 'Credit Card'
 };
 
@@ -19,10 +19,10 @@ export const homeObjTwo = {
   lightTopLine: true,
   lightTextDesc: true,
   topLine: '100% Secure',
-  headline: 'Stay protected 24/7 anywhere anytime',
+  headline: 'Custom Orders',
   description:
     'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-  buttonLabel: 'Learn More',
+  buttonLabel: 'Custom Orders',
   imgStart: '',
   img: require('../../images/svg-1.svg'),
   alt: 'Vault'
@@ -52,7 +52,8 @@ export const homeObjFour = {
   headline: 'Every transaction is stored on our secure cloud database',
   description:
     'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-  buttonLabel: 'Sign Up Now',
+  buttonLabel: 'View Cakes',
+  buttonLink: '/services',
   imgStart: 'start',
   img: require('../../images/svg-1.svg'),
   alt: 'Vault'

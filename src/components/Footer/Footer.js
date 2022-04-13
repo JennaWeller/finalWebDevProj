@@ -36,35 +36,14 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+          Feel free to join our mailing list and never miss new cake launches! 
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
+        <FooterSubText>We're glad to have you join our community of treat lovers.</FooterSubText>
         <Form>
           <FormInput name='email' type='email' placeholder='Your Email' />
-          <Button fontBig>Subscribe</Button>
+          <Button fontBig>Join</Button>
         </Form>
       </FooterSubscription>
-      <FooterLinksContainer>
-        <FooterLinksWrapper>
-          <FooterLinkItems>
-            <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/'>Contact</FooterLink>
-            <FooterLink to='/'>Support</FooterLink>
-            <FooterLink to='/'>Destinations</FooterLink>
-            <FooterLink to='/'>Sponsorships</FooterLink>
-          </FooterLinkItems>
-        </FooterLinksWrapper>
-        <FooterLinksWrapper>
-
-          <FooterLinkItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to='/'>Instagram</FooterLink>
-            <FooterLink to='/'>Facebook</FooterLink>
-            <FooterLink to='/'>Youtube</FooterLink>
-            <FooterLink to='/'>Twitter</FooterLink>
-          </FooterLinkItems>
-        </FooterLinksWrapper>
-      </FooterLinksContainer>
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>

@@ -9,6 +9,7 @@ export const homeObjOne = {
   description:
     'Homemade cakes that taste as good as they look, guaranteed.',
   buttonLabel: 'View Cakes',
+  buttonLink: '/services',
   imgStart: '',
   img: require('../../images/rainbowcake.png'),
   alt: 'Credit Card',
@@ -21,13 +22,14 @@ export const homeObjTwo = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Instant Setup',
-  headline: 'Extremely quick onboarding process',
+  topLine: 'We Cater Events',
+  headline: 'If you want to cater a special event with cupcakes, cookies, or cake, we have got you covered',
   description:
-    "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
-  buttonLabel: 'Learn More',
+    "Let us know at least a week ahead of time for parties of 20+ and two weeks ahead for larger parties.",
+  buttonLabel: 'Place an Order',
+  
   imgStart: '',
-  img: require('../../images/svg-2.svg'),
+  img: require('../../images/colorCake.png'),
   alt: 'Vault',
   start: ''
 };
@@ -44,6 +46,7 @@ export const homeObjThree = {
   description:
     "Have you ever bought a cake that looked beautiful, but didn't taste so beautiful? We started Brooke's Bakery to make sure you don't have to compromise on taste for beauty.",
   buttonLabel: 'View Cakes',
+  buttonLink: '/services',
   imgStart: 'start',
   img: require('../../images/profile.jpg'),
   alt: 'Vault',
@@ -56,13 +59,14 @@ export const homeObjFour = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Secure Database',
-  headline: 'All your data is stored on our secure server',
+  topLine: "How Brooke's Bakery Began",
+  headline: 'Family Fun to Community Business',
   description:
-    'You will never have to worry about your information getting leaked. Our team of security experts will ensure your records are kept safe.',
-  buttonLabel: 'Sign Up Now',
+    'Brooke started trying out baking as a hobby, making cakes and treats for her family. Over time she grew  to love baking so much she decided to make it her job.',
+  buttonLabel: 'View Cakes',
+  buttonLink: '/services', 
   imgStart: 'start',
-  img: require('../../images/svg-3.svg'),
+  img: require('../../images/brookeandCake.jpg'),
   alt: 'Vault',
   start: 'true'
 };

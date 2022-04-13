@@ -1,30 +1,18 @@
-export const homeObjOne = {
-  lightBg: true,
-  lightText: false,
-  lightTopLine: false,
-  lightTextDesc: false,
-  topLine: 'View Our Products',
-  headline: 'Shop through our catalog of products',
-  description:
-    'We provide worldwide shipping to all countries. If there are any issues, just issue a refund and we will process your request',
-  buttonLabel: 'Shop Now',
-  imgStart: '',
-  img: require('../../images/svg-1.svg'),
-  alt: 'Credit Card'
-};
+
 
 export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTopLine: true,
   lightTextDesc: true,
-  topLine: '100% Secure',
-  headline: 'Stay protected 24/7 anywhere anytime',
+  topLine: 'Build Your Own Treat',
+  headline: 'Custom Orders',
   description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-  buttonLabel: 'Learn More',
+    'We are willing to make just about any treat for your special occasions! If you prefer a vegan cake, a gluten free cake, sugar cookies, brownies etc. let us know and we can work through a custom order with you. Take a look at our sugar cookie work below.',
+  buttonLabel: 'Place an Order',
+  buttonLink: '/signUp',
   imgStart: '',
-  img: require('../../images/svg-1.svg'),
+  img: require('../../images/cookies.png'),
   alt: 'Vault'
 };
 
@@ -50,7 +38,7 @@ export const homeObjFour = {
   headline: 'Every transaction is stored on our secure cloud database',
   description:
     'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-  buttonLabel: 'Sign Up Now',
+  buttonLabel: 'View Cakes',
   imgStart: 'start',
   img: require('../../images/svg-1.svg'),
   alt: 'Vault'

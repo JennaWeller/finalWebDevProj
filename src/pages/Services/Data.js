@@ -2,13 +2,13 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Exclusive Access',
-  headline: 'Unlimited Transactions with zero fees',
+  topLine:" Don't see a cake you're interested in? Want a different type of treat?",
+  headline: 'Custom Orders',
   description:
-    'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
-  buttonLabel: 'Get Started',
+    'Brooke is a talented baker and her expertise expands beyond cakes. She also makes cookies, brownies, lava cakes and other treats. For example she made these sugar cookies for easter.',
+  buttonLabel: 'Custom Orders',
   imgStart: '',
-  img: require('../../images/svg-1.svg'),
+  img: require('../../images/easterCookies.jpg'),
   alt: 'Credit Card'
 };
 
@@ -17,9 +17,9 @@ export const homeObjTwo = {
   lightText: true,
   lightTextDesc: true,
   topLine: '100% Secure',
-  headline: 'Stay protected 24/7 anywhere anytime',
+  headline: 'Custom Orders',
   description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+    'Custom Orders',
   buttonLabel: 'Learn More',
   imgStart: '',
   img: require('../../images/svg-1.svg'),

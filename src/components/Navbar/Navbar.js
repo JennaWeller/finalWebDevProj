@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Button } from '../../globalStyles';
+import {Link} from 'react-router-dom'; 
 import {
   Nav,
   NavbarContainer,
@@ -66,8 +67,12 @@ function Navbar() {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <CartIcon/>
+              <Link to='/cart' onClick={closeMobileMenu} >
+               <CartIcon></CartIcon> 
+              </Link>
+                
               </NavItem>
+
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to='/sign-up'>

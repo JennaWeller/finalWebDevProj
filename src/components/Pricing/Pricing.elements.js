@@ -1,6 +1,12 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import catCookieCake from '../../images/catCookieCake.png';
 
+export const CatCookie = styled.div`
+  background-image: url(${catCookieCake});
+  width: 500px;
+  height: 500px;
+`; 
 export const PricingSection = styled.div`
   padding: 100px 0 160px;
   display: flex;
@@ -86,7 +92,7 @@ export const PricingCardIcon = styled.div`
 `;
 
 export const PricingCardPlan = styled.h3`
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   font-size: 24px;
 `;
 
